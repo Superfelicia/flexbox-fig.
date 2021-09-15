@@ -1,0 +1,84 @@
+/*first block*/
+
+.first-block {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    background: blueviolet;
+    position: absolute;
+    width: 468px;
+    height: 160px;
+    left: 98px;
+    top: 90px;
+}
+
+.card-first {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 117px;
+    top: 153px;
+    background: coral;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card-middle {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 215px;
+    top: 153px;
+    background: coral;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: space-between;
+}
+
+.card-last {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+    left: 313px;
+    top: 153px;
+    background: coral;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/*second block*/
+
+.second-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: blueviolet;
+    position: absolute;
+    width: 468px;
+    height: 160px;
+    left: 586px;
+    top: 90px;
+}
+
+.first-rectangle {
+    position: absolute;
+    width: 78px;
+    height: 120px;
+    left: 683px;
+    top: 110px;
+    background: coral;
+    /*box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;*/
+}
+
+

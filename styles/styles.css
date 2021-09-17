@@ -1,5 +1,12 @@
 /*first block*/
 
+body {
+    position: relative;
+    width: 1152px;
+    height: 700px;
+    background: #b6cfb6;
+}
+
 .first-block {
     display: flex;
     flex-direction: row;
@@ -339,5 +346,7 @@
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
 }
+
+/*gap, row-gap, column-gap*/
 
 
